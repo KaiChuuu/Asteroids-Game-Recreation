@@ -21,3 +21,5 @@ you will also need to ensure the openal32.dll library is in the same filepath as
 The openal32 library cannot be statically linked unlike the other .dll files that are in the SFML bin.
 
 #### Created with SFML.
+
+![](https://media.giphy.com/media/k46qOThO6r3s5j4YYQ/giphy.gif)
