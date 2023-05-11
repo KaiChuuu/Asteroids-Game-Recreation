@@ -4,7 +4,7 @@ Recreated the classic Asteroids game in SFML!
 
 ![](https://media.giphy.com/media/WItEjASFX6fhe9gsUY/giphy.gif)
 
-Link to game and more details <b>(please click!)</b>
+Link to game and more details <b>(please click!)</b>  
 https://happyteam.itch.io/asteroids-game-remake
 
 Gameplay of the recreated game  
