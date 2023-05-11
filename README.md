@@ -7,7 +7,7 @@ Recreated the classic Asteroids game in SFML!
 Link to game and more details (please click!)
 
 
-Gameplay of the recreated game
+Gameplay of the recreated game  
 https://youtu.be/pBtrTyjbm7E
 
 ## Build
