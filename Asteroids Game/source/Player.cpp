@@ -168,7 +168,7 @@ void Player::PlayerRespawning()
   {
     isInvul = true;
     isAlive = true;
-    invulClock.restart().Zero;
+    invulClock.restart();
 
     sPlayer.setPosition(std::round(windowManager->GetWindowOrigin().x),
                         std::round(windowManager->GetWindowOrigin().y));
@@ -197,15 +197,18 @@ void Player::PlayerInvulnerable()
         windowManager->UpdateRenderingList(thrusterName, sThruster, "Add");
         playerFlash = 0;
       }
-      invulFlashClock.restart().Zero;
+      invulFlashClock.restart();
     }
 
     if (invulClock.getElapsedTime().asSeconds() > invulTime.asSeconds())
     {
       isInvul = false;
-      windowManager->UpdateRenderingList(playerName, sPlayer, "Add");
-      windowManager->UpdateRenderingList(thrusterName, sThruster, "Add");
-      playerFlash = 0;
+      if (playerFlash == 1)
+      {
+        windowManager->UpdateRenderingList(playerName, sPlayer, "Add");
+        windowManager->UpdateRenderingList(thrusterName, sThruster, "Add");
+        playerFlash = 0;
+      }
     }
   }
 }
