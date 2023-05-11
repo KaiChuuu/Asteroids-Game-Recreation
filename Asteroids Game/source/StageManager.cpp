@@ -149,7 +149,7 @@ void StageManager::StageCollisions()
   std::vector<sf::Sprite *> *renderedAliens = windowManager->GetRenderedObjects("Alien");
 
   // Check player & asteroid collisions
-  if (!player->IsPlayerInvul())
+  if (!player->IsPlayerInvul() && player->IsPlayerAlive())
   {
     sf::Sprite *asteroid = collisionManager.RectCircleCollision(*player->GetPlayer(), *renderedAsteroids, true);
     if (asteroid)
