@@ -18,6 +18,8 @@ https://youtu.be/pBtrTyjbm7E
 - Collision Detection
 - Asteroid : Multiple types with different size and speed. Spawn control and location control (will not spawn on player, and only spawns on the edge of the map)
 - OOP practices implmented for classes (Ex: WindowsManager, Player, Bullet, InterfaceManager)
+- UI interface (Scoreboard, start/end)
+- Audio (Ingame music, sound effects)
 
 ## Build
 
