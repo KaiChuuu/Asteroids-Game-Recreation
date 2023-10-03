@@ -10,6 +10,15 @@ https://happyteam.itch.io/asteroids-game-remake
 Gameplay of the recreated game  
 https://youtu.be/pBtrTyjbm7E
 
+## Features
+
+- Player : Ship animation, smooth movement controls, and spawn invulnerability
+- Alien : Enemy AI with random movement patterns, ability to shoot, and audio queues.
+- Screen Wrap
+- Collision Detection
+- Asteroid : Multiple types with different size and speed. Spawn control and location control (will not spawn on player, and only spawns on the edge of the map)
+- OOP practices implmented for classes (Ex: WindowsManager, Player, Bullet, InterfaceManager)
+
 ## Build
 
 If you did want to build the application on your own device you would need to install SFML-2.5.1 on your system.
